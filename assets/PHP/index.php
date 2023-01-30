@@ -9,11 +9,11 @@ require 'add.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type='text/css' href="css/style.css">
+    <link rel="stylesheet" type='text/css' href="../css/style.css">
     <title>Hackers Poulette</title>
 </head>
 <body>
-    <h2>Formulaire d'envoie de réclamations</h2>
+    <h2>Réclamation</h2>
     <form action=""method="post" >
         <label for="name">Name</label>
         <input type="text" name="name" id="input_name" required >
