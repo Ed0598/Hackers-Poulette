@@ -33,4 +33,5 @@ At the minimum the form should include the following fields:
 ### Extras
 
 -   Client side validation with _JavaScript_
+
 ![Capture d’écran 2023-01-31 162932](https://user-images.githubusercontent.com/117506113/215803616-bcb24890-c112-4695-a383-d0ddf104ba9a.png)
