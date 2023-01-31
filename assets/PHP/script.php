@@ -5,23 +5,24 @@ if (isset($_POST['submit'])) {
     $firstname = $_POST['firstname'];
     $email = $_POST['email'];
     $comment = $_POST['comment'];
+
   
     $valid = true;
   
     if (!preg_match('/^[a-zA-ZÀ-ÿ|\s]{2,255}$/u', $name)) {
-      echo "<p>Le nom est invalide</p>";
+      $nameerror= "<p> Le nom est invalide</p>";
       $valid = false;
     } 
     if (!preg_match('/^[a-zA-Z]{2,255}$/', $firstname)) {
-      echo "<p>Le prénom est invalide</p>";
+      $firstnameerror="<p> Le prénom est invalide </p>";
       $valid = false;
     }
     if (!preg_match('/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/', $email)) {
-      echo "<p>L'adresse email est invalide</p>";
+      $emailerror="<p>L'adresse email est invalide</p>";
       $valid = false;
     }
-    if (!preg_match('/^[a-zA-Z]{2,5}$/', $comment)) {
-      echo "<p>Le commentaire ne respecte pas les limites de caractères</p>";
+    if (!preg_match('/^[a-zA-Z]{250,1000}$/', $comment)) {
+      $commenterror= "<p>Le commentaire ne respecte pas les limites de caractères</p>";
       $valid = false;
     }
   
@@ -30,6 +31,8 @@ if (isset($_POST['submit'])) {
       $firstname = filter_var($firstname, FILTER_SANITIZE_STRING);
       $email = filter_var($email, FILTER_SANITIZE_EMAIL);
       $comment = filter_var($comment, FILTER_SANITIZE_STRING);
+
+      echo "Formulaire envoyé ";
     }
   }
 

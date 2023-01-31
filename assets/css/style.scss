@@ -1,15 +1,16 @@
-$primary-color: #2196f3;
-$secondary-color: #e0e0e0;
+$primary-color: #f8af7e73;
+$secondary-color: #9dffce79;
 
 html {
-
+    background-color: rgba(236, 236, 236, 0.74);
     height: 100%;
 }
 
 body {
     h2 {
         text-align: center;
-        font-size: 5em;
+        font-size: 3em;
+        font-family: 'Heebo', sans-serif;
     }
 
     form {
@@ -19,6 +20,8 @@ body {
         padding: 2.5em;
         background-color: $secondary-color;
         border-radius: 0.625em;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
 
         label {
             font-weight: bold;
@@ -40,7 +43,7 @@ body {
             margin-top: 1.25em;
             padding: 0.625em;
             background-color: $primary-color;
-            color: white;
+            color: black;
             border-radius: 5px;
             border: none;
             font-weight: bold;
@@ -49,7 +52,11 @@ body {
     }
 
     #input_comment {
-        padding-top: 10em;
+        width: 100%;
+        resize: none;
+    }
+    #label_comment{
+        padding-bottom: 0.5em;
     }
 }
 
