@@ -18,7 +18,7 @@ require '/wamp64/www/variable/Hackers-Poulette/php/add.php';
     <title>Hackers Poulette</title>
 </head>
 <body>
-    <h2>Formulaire de réclamation</h2>
+    <h2>Formulaire de réclamation ! </h2>
     <form action="" method="post" id="form" >
         <label for="name">Name *</label>
         <input type="text" name="name" id="input_name" >
