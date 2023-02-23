@@ -53,4 +53,6 @@ if (isset($_POST['submit'])) {
   if (!empty($_POST['email_confirm'])){
     die('Une erreur est survenue. Veuillez réessayer plus tard.');
   }
+
+  
   
