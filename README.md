@@ -1,6 +1,7 @@
 # Hackers Poulette
 
 Project completed in two days (January 2023). Made with PhP,Javascript,CSS
+Project refactorized and deployed on 23th February 2023.
 ## The mission
 
 The company _Hackers Poulette ™_ sells Raspberry Pi accessory kits to build
