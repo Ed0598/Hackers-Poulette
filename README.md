@@ -1,6 +1,6 @@
 # Hackers Poulette
 
-Project completed in two days (January 2023). Made with PhP,Javascript,CSS
+Project completed in two days (January 2023). Made with PhP,Javascript,CSS <br>
 Project refactorized and deployed on 23th February 2023.
 ## The mission
 
