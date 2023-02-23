@@ -14,7 +14,7 @@ require 'add.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <script defer src="../assets/js/validation.js"></script>
+    <script defer src="/assets/js/validation.js"></script>
     <title>Hackers Poulette</title>
 </head>
 <body>
